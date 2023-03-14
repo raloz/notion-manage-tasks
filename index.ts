@@ -1,3 +1,1 @@
-export const archiveTasksNotion = () => {
-  console.log("hola mundo")
-};
+export { archiveTasksNotion } from "./src/lambdas/notion-archive-tasks";

@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "notion-archive:local" : "sls invoke local --function first",
+    "notion-archive:deploy" : "sls deploy function --function first",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "serverless.com",
