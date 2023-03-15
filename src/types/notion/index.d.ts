@@ -1,0 +1,1 @@
+export {NotionIdentificator} from "./type"
